@@ -4,6 +4,12 @@
 ### 1 Student Tools
 > 1.1 Text Analysis\
 > 1.2 Grade Calculator
+### 2 List Comprehension
+> 2.1 Temperature Converter\
+> 2.2 Grade Evaluator\
+> 2.3 Word Reverse\
+> 2.4 Email Domain getter\
+> 2.5 Even Perfect Squares
 
 ---
 
@@ -21,5 +27,23 @@ __1.2 Grade Calculator__
 Program to summarize students' grades based on their test exams. It outputs:
 - Average score of exams taken
 - Letter rating based on acquired average (A-F)
+
+---
+
+## 2 LIST COMPREHENSION
+__2.1 Temperature Converter__
+- Convert temperatures above 0 degree Celsius to Fahrenheit
+  
+__2.2 Grade Evaluator__
+- Extract valid numeric grades and categorize them (passing grade is >= 80)
+  
+__2.3 Word Reverse__
+- Extract words longer than 4 characters and reverse them
+  
+__2.4 Email Domain getter__
+- Extract valid email addresses and collect their domains
+  
+__2.5 Even Perfect Squares__
+- Find numbers that are both even and perfect squares from 1-100
 
 ---
