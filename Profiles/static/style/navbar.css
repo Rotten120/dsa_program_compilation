@@ -1,0 +1,53 @@
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	text-align: center;
+	background: black;
+	
+	width: 270px;
+	height: 100%;
+
+	padding: 0 45px 0 25px;
+
+	transform: translate(-300px);
+	transition: transform 1.0s ease;
+
+	border-style: solid;
+	border-color: white;
+}
+
+nav:hover {
+	transform: translate(0%);
+}
+
+.main_nav {
+	display: block;
+	margin: 10px 0;
+	padding: 8px 20px;
+
+	border-radius: 15px;
+	text-align: left;
+
+	color: white;
+	background: #202020;
+	text-decoration: none;
+}
+
+.side_nav_text {
+	transform: rotate(-90deg) translateY(20px);
+	right: 0%;
+	top: 50%;
+}
+
+span {
+	position: absolute;
+	font-size: 35px;
+
+	top: 50%;
+	transform: translateY(-50%);
+
+	color: white;
+}
