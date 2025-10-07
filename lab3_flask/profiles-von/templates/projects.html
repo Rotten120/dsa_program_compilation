@@ -1,0 +1,88 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<title>Projects | Flask Web</title>
+		<link rel="stylesheet" href="../static/style/projects.css">
+		<link rel="stylesheet" href="../static/style/navbar.css">
+		<link rel="stylesheet" href="../static/style/contact.css">
+		<link rel="stylesheet" href="../static/style/buttons.css">
+		<link rel="icon" type="image/x-icon" href="../static/favicon.png">
+	</head>
+
+	<body>
+		<header>
+			<img class="bg_img" src="../static/img/cover.jpg" alt="BACKGROUND IMAGE">
+			<h1 class="page_title">PROJECTS</h1>
+		</header>
+
+		<nav>
+			<h3>MENU</h3>
+			<a class="main_nav" href="/">Home</a>
+			<a class="main_nav" href="/profile">Profile</a>
+			<a class="main_nav" href="/projects">Projects</a>
+			<a class="main_nav" href="#contacts">Contacts</a>
+			<span class="side_nav_text">menu</span>
+		</nav>
+
+		<main>
+			<div class="column1">
+				<div class="button">
+					<a href="/touppercase" alt="UpperCase"><div class="button_area"> </div><img class="button_icon" src="../static/icons/letter.png"><span>toUpperCase</span></a>
+				</div>
+
+				<div class="button">
+					<a href="/circle_area" alt="Circle"><div class="button_area"> </div><img class="button_icon" src="../static/icons/circle.png"><span>Area of Circle</span></a>
+				</div>
+			</div>
+
+			<div class="column2">
+				<div class="button">
+					<a href="/triangle_area" alt="Triangle"><div class="button_area"> </div><img class="button_icon" src="../static/icons/triangle.png"><span>Area of Triangle</span></a>
+				</div>
+
+				<div class="button">
+					<a href="https://github.com/Rotten120?tab=repositories" target="_blank" alt="Github"><div class="button_area"> </div><img class="button_icon" src="../static/icons/threedots.png"><span>Others</span></a>
+				</div>
+			</div>
+
+
+		</main>
+
+		<footer id="contacts" class="projects-page">
+			<h1>CONTACT ME<h1>
+			<form class="mail">
+				<input class="small_inp" type="text" id="email" name="email" placeholder="Email">
+				<br>
+				<input class="small_inp" type="text" id="subject" name="subject" placeholder="Subject">
+				<br>
+				<textarea class="big_inp" id="message" name="message" placeholder="Message" rows="13"></textarea>
+				<br>
+				<input class="submit_mail" type="submit" value="Submit">
+				</input>
+			</form>
+
+			<div class="contacts">
+				<div class="sub_contacts">
+					<figure class="contact_detail">
+						<img class="contact_icon" src="../static/icons/location.png" alt="location">
+						<figcaption>Metro Manila, Philippines</figcaption>
+					</figure>
+					<figure class="contact_detail">
+						<img class="contact_icon" src="../static/icons/gmail.png" alt="gmail">
+						<figcaption>vonzedric012@gmail.com</figcaption>
+					</figure>
+					<figure class="contact_detail">
+						<img class="contact_icon" src="../static/icons/phone.png" alt="phone number">
+						<figcaption>+639771035879</figcaption>
+					</figure>
+				</div>
+
+				<figure class="social_contacts">
+					<a href="https://web.facebook.com/rotten.flesh.12/" target="_blank"><img class="social_icon" src="../static/icons/facebook.png" alt="facebook"></a>
+					<a href="https://github.com/Rotten120" target="_blank"><img class="social_icon" src="../static/icons/github.png" alt="github"></a>
+					<a href="https://www.linkedin.com/in/delosreyesvonzedric/" target="_blank"><img class="social_icon" src="../static/icons/linkedin.png" alt="linkedin"></a>
+				</figure>
+			</div>
+		</footer>
+	</body>
+</html>
