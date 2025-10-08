@@ -31,9 +31,15 @@ nav:hover {
 	border-radius: 15px;
 	text-align: left;
 
-	color: white;
 	background: #202020;
 	text-decoration: none;
+
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+.main_nav:hover {
+	background: white;
+	color: black;
 }
 
 .side_nav_text {
@@ -48,6 +54,8 @@ span {
 
 	top: 50%;
 	transform: translateY(-50%);
+}
 
-	color: white;
+a {
+	color: inherit;
 }

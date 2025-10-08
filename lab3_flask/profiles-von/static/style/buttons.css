@@ -1,5 +1,6 @@
 .button {
 	position: relative;
+	color: white;
 	background-color: #050505;
 	padding: 25px 50px;
 
@@ -9,6 +10,13 @@
 	border-radius: 24px;
 	border-style: solid;
 	border-color: black;
+
+	transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
 }
 
 .button_area {
@@ -31,4 +39,7 @@
 	border-radius: 50%;
 	background: white;
 	padding: 30px;
+	
+	border-style: solid;
+	border-color: #050505;
 }
