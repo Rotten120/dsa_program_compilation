@@ -10,6 +10,8 @@
 > 2.3 Word Reverse\
 > 2.4 Email Domain getter\
 > 2.5 Even Perfect Squares
+### 3 Profile Page
+### 4 Linked List
 
 ---
 
@@ -47,3 +49,16 @@ __2.5 Even Perfect Squares__
 - Find numbers that are both even and perfect squares from 1-100
 
 ---
+
+## 3 PROFILE PAGE WITH PYTHON FLASK
+With help of python flask, html, and css, develop a profile page that contains the following
+1. Home Page
+2. Profile Page
+3. Contacts
+4. Calculator for triangle area
+5. Calculator for circle area
+6. Text converter to uppercase
+
+---
+
+## 4 LINKEDLIST
